@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FEC7B4; 
+    color: #424242; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #D37676; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 20%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .hobbies-container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px; 
+  }
+  
+  .hobbies-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .hobbies-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FFE6E8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .hobbies-list li:hover {
+    background-color: #FFC3CE;
+  }
+  
+  .contact-link {
+    font-size: 24px;
+    color: #D37676; 
+    text-decoration: none;
+  }
+  
+  
